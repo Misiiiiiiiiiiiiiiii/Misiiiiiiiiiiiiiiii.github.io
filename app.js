@@ -8,9 +8,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'Misii',
-  password: 'LigenBalls5636',
+  host: 'beapro.pro',
+  user: 'onxy',
+  password: 'Boborjan55',
   database: 'egyetemek'
 });
 
