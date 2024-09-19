@@ -1,6 +1,12 @@
 [build]
-  command = "npm run build"
-  publish = "public"
+  command = "npm install && npm run build"
+  publish = "./"
+
+[functions]
+  api = { 
+    handler = "node app.js"
+    included_files = ["app.js", "package.json"]
+  }
 
 [[redirects]]
   from = "/api/*"
