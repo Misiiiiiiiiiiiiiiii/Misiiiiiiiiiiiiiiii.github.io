@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Egyetem</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <h1>Add Egyetem</h1>
+  <form action="/add" method="post">
+    <label for="orszag">Ország:</label>
+    <input type="text" id="orszag" name="Ország" required><br>
+    <label for="varos">Város:</label>
+    <input type="text" id="varos" name="Város" required><br>
+    <label for="videk_varos">Vidék/Város:</label>
+    <input type="text" id="videk_varos" name="Vidék_Város" required><br>
+    <label for="minimum_pontszam">Minimum pontszám:</label>
+    <input type="number" id="minimum_pontszam" name="Minimum_pontszam" required><br>
+    <label for="agazat">Ágazat:</label>
+    <input type="text" id="agazat" name="Ágazat" required><br>
+    <label for="tanfolyam_hossza">Tanfolyam hossza:</label>
+    <input type="number" id="tanfolyam_hossza" name="Tanfolyam_hossza" required><br>
+    <button type="submit">Add</button>
+  </form>
+</body>
+</html>
